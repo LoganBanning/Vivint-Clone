@@ -12,6 +12,10 @@
   margin-left: 20px;
 }
 
+.Vivint-Logo:hover {
+  cursor: pointer;
+}
+
 .nav-links-container {
   display: flex;
   flex-direction: row;
@@ -32,6 +36,7 @@
   margin-top: 0;
   margin-right: 15px;
   margin-bottom: 5px;
+  font-weight: lighter;
 }
 
 .link:hover {
@@ -40,4 +45,61 @@
 
 .down-arrow {
   margin-left: 10px;
+}
+
+.login-search-container {
+  color: white;
+  margin-left: 12vw; 
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.login {
+  font-weight: lighter;
+}
+
+.login:hover{
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 35px;
+  margin-left: 3vw;
+  height: 25px;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+.peace-of-mind {
+  color: white;
+  font-weight: lighter;
+}
+
+.phone-button-container {
+  position: fixed;
+  right: 25px;
+  top: -15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phone-button {
+  height: 60px;
+  margin-top: -15px;
+  border-radius: 30px;
+  border: none;
+  background-color: #e9c46a;
+  font-weight: bold;
+  font-size: large;
+}
+
+.phone-button:hover {
+  cursor: pointer;
+  background-color: white;
 }
