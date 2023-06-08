@@ -8,6 +8,36 @@
 
 .Vivint-Logo {
   background-color: black;
-  width: 100px;
+  width: 85px;
   margin-left: 20px;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.link {
+  margin: 0 25px 5px 25px;
+  margin-left: 25px;
+  margin-top: 0;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.down-arrow {
+  margin-left: 10px;
 }
