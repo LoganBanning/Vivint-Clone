@@ -1,0 +1,59 @@
+.landing-page-container {
+  width: 100vw;
+}
+
+.equipment-photo {
+  width: 100vw;
+}
+
+.photo-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: -95vh;
+  margin-left: 5vw;
+}
+
+.text-one {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.text-two {
+  letter-spacing: 1px;
+  font-size: 39px;
+  margin-top: 0;
+}
+
+.text-three {
+  background-color: black;
+  opacity: .9;
+  width: 40vw;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  border-radius: 25px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.text-four {
+  margin-top: 50px;
+  letter-spacing: 2px;
+}
+
+.phone-button-photo {
+  height: 60px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  background-color: #e9c46a;
+  font-weight: bold;
+  font-size: large;
+}
+
+.phone-button-photo:hover {
+  cursor: pointer;
+  background-color: white;
+}
