@@ -1,0 +1,49 @@
+.industry-comparison-comp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%; 
+}
+
+.top-text-IC-comp {
+  margin-bottom: 7%;
+  margin-left: -50%;
+}
+
+.text-IC-1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.text-IC-2 {
+  margin-top: 10px;
+}
+
+.text-IC-3 {
+  margin-top: -10px;
+  font-size: smaller;
+}
+
+.IC-details-container {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+
+.IC-details-text {
+  margin-right: 20px;
+  margin: 40px 35px;
+}
+
+.vivint-check-box-container {
+  width: 15vw;
+  background-color: black;
+  margin: 20px 20px;
+}
+
+.adt-check-box-container {
+  width: 15vw;
+  background-color: gainsboro;
+  margin: 20px 20px;
+}

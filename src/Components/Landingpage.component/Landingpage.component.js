@@ -3,7 +3,7 @@ import SecurityPhoto from '../../Images/Vivint-security-products.jpg';
 import './Landingpage.component.css';
 import { BsTelephone } from 'react-icons/bs';
 import FeaturesComponent from '../Features.component/Features.component';
-import IndustryComparisonComponent from '../IndustryComparison.component/IndustryComparison.component';
+import AppFeatures from '../App.Features.component/App.Features.component';
 
 const Landingpage = () => {
   return (
@@ -20,7 +20,7 @@ const Landingpage = () => {
       <button className='phone-button-photo'><BsTelephone/> 801.992.1424</button>
     </div> 
       <FeaturesComponent />
-      <IndustryComparisonComponent />
+      <AppFeatures />
     </div>
   )
 }

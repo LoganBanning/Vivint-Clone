@@ -1,0 +1,45 @@
+.app-features-comp-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  width: 96vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: #dde5b6;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.vivint-phone-app-image {
+  width: 800px;
+  margin-left: -10%;
+}
+
+.app-comp-text-1 {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.app-comp-text-2 {
+  font-size: 45px;
+  margin-top: 0;
+}
+
+.app-comp-text-3 {
+  margin-top: -5%;
+}
+
+.app-comp-text-4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 15%;
+  margin-bottom: 0;
+}
+
+.app-comp-button {
+  margin-top: 10px;
+}
+
+
+
