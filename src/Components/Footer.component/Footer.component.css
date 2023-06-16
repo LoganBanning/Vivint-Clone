@@ -1,0 +1,49 @@
+.footer-comp-container {
+  height: 200px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.footer-comp-main-links {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.vivint-house-logo-footer {
+  height: 35px;
+  margin-top: 35px;
+}
+
+.footer-comp-link {
+  color: white;
+  margin-top: 50px;
+  font-size: 13px;
+}
+
+.footer-comp-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: gray;
+}
+
+.footer-comp-copyright-opt-out-links {
+  color: gray;
+  font-size: 9px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright-links-footer {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+}
+
+.copyright-link:hover {
+  cursor: pointer;
+  color: darkgray;
+}

@@ -6,4 +6,5 @@ body {
   display: flex;
   background-color: white;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
