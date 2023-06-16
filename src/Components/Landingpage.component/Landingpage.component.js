@@ -6,6 +6,7 @@ import FeaturesComponent from '../Features.component/Features.component';
 import AppFeatures from '../App.Features.component/App.Features.component';
 import SmartDevicesComponent from '../SmartDevices.component/SmartDevices.component';
 import QuoteInputComponent from '../QuoteInput.component/QuoteInput.component';
+import Footer from '../Footer.component/Footer.component';
 
 const Landingpage = () => {
   return (
@@ -25,6 +26,7 @@ const Landingpage = () => {
       <AppFeatures />
       <SmartDevicesComponent />
       <QuoteInputComponent />
+      <Footer />
     </div>
   )
 }

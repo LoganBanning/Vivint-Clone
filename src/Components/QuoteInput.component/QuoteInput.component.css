@@ -9,6 +9,7 @@
   justify-content: space-evenly;
   background-color: #caf0f8;
   height: 600px;
+  border-radius: 30px;
 }
 
 .quote-input-comp-text {
@@ -20,12 +21,50 @@
   font-weight: bold;
 }
 
+.quote-input-comp-phone-text {
+  text-decoration: underline;
+  color: #e9c46a;
+}
+
+.quote-input-comp-phone-text:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
 .quote-input-comp-form-container {
   display: flex;
   flex-direction: column;
+  margin-left: 25px;
 }
 
 .quote-input-comp-form {
   display: flex;
   flex-direction: column;
 }
+
+.quote-input-comp-input {
+  width: 450px;
+  height: 50px;
+  background-color: #caf0f8;
+  border-bottom: 1px thin black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+}
+
+.quote-input-comp-disclaimer {
+  font-size: 11px;
+}
+
+.quote-input-comp-input:focus, textarea:focus, select:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
