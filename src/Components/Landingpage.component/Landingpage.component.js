@@ -4,6 +4,8 @@ import './Landingpage.component.css';
 import { BsTelephone } from 'react-icons/bs';
 import FeaturesComponent from '../Features.component/Features.component';
 import AppFeatures from '../App.Features.component/App.Features.component';
+import SmartDevicesComponent from '../SmartDevices.component/SmartDevices.component';
+import QuoteInputComponent from '../QuoteInput.component/QuoteInput.component';
 
 const Landingpage = () => {
   return (
@@ -21,6 +23,8 @@ const Landingpage = () => {
     </div> 
       <FeaturesComponent />
       <AppFeatures />
+      <SmartDevicesComponent />
+      <QuoteInputComponent />
     </div>
   )
 }
