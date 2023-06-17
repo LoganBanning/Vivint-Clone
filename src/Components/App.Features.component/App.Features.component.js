@@ -16,7 +16,7 @@ const AppFeatures = () => {
           <li>Open the garage for your package deliveries</li>
           <li>Turn lights on/off </li>
         </ul>
-        <p className='app-comp-text-4'>CALL NOW FOR FREE QUOTE</p>
+        <p className='app-comp-text-4 quote-text'>CALL NOW FOR FREE QUOTE</p>
         <button className='orange-button app-comp-button'><BsTelephone /> 801.992.1424</button>
       </div>
     </div>

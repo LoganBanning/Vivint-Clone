@@ -33,3 +33,7 @@
   background-color: black;
   cursor: pointer;
 }
+
+.quote-text {
+  margin-left: 40px;
+}

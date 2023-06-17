@@ -1,14 +1,23 @@
 import './QuoteInput.component.css';
 import { useState } from 'react';
+import axios from 'axios';
 
 const QuoteInputComponent = () => {
 
   const [ name, setName ] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [email, setEmail] = useState('');
-  console.log(name);
-  console.log(phoneNumber);
-  console.log(email);
+
+  const addLead = async () => {
+    try {
+      const response = await axios.post('/api/addLead', {name, email, phoneNumber});
+      if(response.status === 200){
+        console.log('added lead')
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   return (
     <div className='quote-input-comp-container'>
@@ -35,7 +44,7 @@ const QuoteInputComponent = () => {
         </input>
       </form>
       <p className='quote-input-comp-disclaimer'>Clicking the button below constitutes your electronic signature and consent for Vivint<br /> and its parent company NRG to use automated technology, including calls, texts and<br /> prerecorded messages, to contact you at the number provided about Vivint and NRG<br /> offers. Consent not required to make a purchase. Up to 10msg/month. Reply 'STOP' to <br />opt-out. See Terms of Service and Privacy Policy.</p>
-      <button className='orange-button'>Start Your Quote</button>
+      <button className='orange-button' onClick={addLead}>Start Your Quote</button>
       </div>
     </div>
   )
