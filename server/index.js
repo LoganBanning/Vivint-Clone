@@ -4,6 +4,7 @@ const express = require('express');
 const { SERVER_PORT, PASSWORD } = process.env;
 const addLead = require('./controllers/addLeadInfo');
 
+console.log('password', PASSWORD);
 const app =express();
 
 const PORT = SERVER_PORT
@@ -13,11 +14,11 @@ app.use(express.json());
 app.use(express.static(`${__dirname}/../build`));
 
 massive({
-  host: 'localhost',
+  host: '127.0.0.1',
   database: 'db',
   port: 5432,
   user: 'local',
-  password: PASSWORD,
+  password: 'local',
   ssl: false,
 })
 .then((db) => {

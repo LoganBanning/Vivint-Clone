@@ -13,9 +13,15 @@ const QuoteInputComponent = () => {
       const response = await axios.post('/api/addLead', {name, email, phoneNumber});
       if(response.status === 200){
         console.log('added lead')
+        setName('');
+        setPhoneNumber('');
+        setEmail('');
       }
     } catch (error) {
       console.log(error);
+      setName('');
+      setPhoneNumber('');
+      setEmail('');
     }
   }
 
