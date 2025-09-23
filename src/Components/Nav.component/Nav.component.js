@@ -1,6 +1,5 @@
 import Logo from '../../Logo/Logo';
 import './Nav.component.css';
-import { LuSearch } from 'react-icons/lu';
 import { BsTelephone } from 'react-icons/bs';
 
 const Nav = () => {
@@ -15,10 +14,6 @@ const Nav = () => {
           <h4 className='link'>Security Cameras</h4>
           <h4 className='link'>Reviews</h4>
         </nav>
-      </div>
-      <div className='login-search-container'>
-        <h5 className='login'>Login</h5>
-        <LuSearch className='search-icon' />
       </div>
       <div className='phone-button-container'>
         <h5 className='peace-of-mind'>GET PEACE OF MIND TODAY</h5>
